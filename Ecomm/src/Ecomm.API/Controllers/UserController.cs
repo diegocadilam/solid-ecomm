@@ -41,7 +41,7 @@ namespace Ecomm.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(Guid id, CreateUserDto dto)
+        public async Task<IActionResult> Update(Guid id, UpdateUserDto dto)
         {
             var user = await _userService.UpdateAsync(id, dto);
             return Ok(user);

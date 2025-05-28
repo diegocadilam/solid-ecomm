@@ -3,23 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecomm.API", "src\Ecomm.API\Ecomm.API.csproj", "{03E1AD44-A11B-4938-9010-46B53B8586E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecomm.API", "src\Ecomm.API\Ecomm.API.csproj", "{03E1AD44-A11B-4938-9010-46B53B8586E2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4EF4633F-D74C-4AC3-96E5-BDB8128AEE0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecomm.Application", "src\Ecomm.Application\Ecomm.Application.csproj", "{8810E624-7756-4856-8D2E-8564194D34C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecomm.Application", "src\Ecomm.Application\Ecomm.Application.csproj", "{8810E624-7756-4856-8D2E-8564194D34C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecomm.Domain", "src\Ecomm.Domain\Ecomm.Domain.csproj", "{BBC72529-388F-4621-A7EB-742B45389FAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecomm.Domain", "src\Ecomm.Domain\Ecomm.Domain.csproj", "{BBC72529-388F-4621-A7EB-742B45389FAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecomm.Infrastructure", "src\Ecomm.Infrastructure\Ecomm.Infrastructure.csproj", "{F19ADD17-2A89-4EA0-A60D-39A8C0712871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecomm.Infrastructure", "src\Ecomm.Infrastructure\Ecomm.Infrastructure.csproj", "{F19ADD17-2A89-4EA0-A60D-39A8C0712871}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E42C2F8A-7086-4870-8B6A-1513E5424A30}"
-	ProjectSection(SolutionItems) = preProject
-		docker-compose.yml = docker-compose.yml
-		Dockerfile = Dockerfile
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecomm.Tests", "src\Ecomm.Tests\Ecomm.Tests.csproj", "{23C65F65-5A09-4F68-B670-8A9A6283C228}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecomm.Tests", "src\Ecomm.Tests\Ecomm.Tests.csproj", "{23C65F65-5A09-4F68-B670-8A9A6283C228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecomm.CrossCutting", "src\Ecomm.CrossCutting\Ecomm.CrossCutting.csproj", "{F13D56CE-B94A-4A23-AF41-3C25E4A2E6DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +45,10 @@ Global
 		{23C65F65-5A09-4F68-B670-8A9A6283C228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23C65F65-5A09-4F68-B670-8A9A6283C228}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23C65F65-5A09-4F68-B670-8A9A6283C228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13D56CE-B94A-4A23-AF41-3C25E4A2E6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13D56CE-B94A-4A23-AF41-3C25E4A2E6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13D56CE-B94A-4A23-AF41-3C25E4A2E6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13D56CE-B94A-4A23-AF41-3C25E4A2E6DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +59,7 @@ Global
 		{BBC72529-388F-4621-A7EB-742B45389FAA} = {4EF4633F-D74C-4AC3-96E5-BDB8128AEE0B}
 		{F19ADD17-2A89-4EA0-A60D-39A8C0712871} = {4EF4633F-D74C-4AC3-96E5-BDB8128AEE0B}
 		{23C65F65-5A09-4F68-B670-8A9A6283C228} = {4EF4633F-D74C-4AC3-96E5-BDB8128AEE0B}
+		{F13D56CE-B94A-4A23-AF41-3C25E4A2E6DC} = {4EF4633F-D74C-4AC3-96E5-BDB8128AEE0B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2CCFC19B-DC89-4C50-AA98-7E05CCEB499E}

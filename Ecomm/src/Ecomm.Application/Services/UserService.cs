@@ -52,13 +52,11 @@ namespace Ecomm.Application.Services
             return user is null ? null : _mapper.Map<UserDto>(user);
         }
 
-        public async Task<UserDto> UpdateAsync(Guid id, CreateUserDto dto)
+        public async Task<UserDto> UpdateAsync(Guid id, UpdateUserDto dto)
         {
             var user = await _repository.GetByIdAsync(id) ?? throw new Exception("User not found");
 
-            user.FullName = dto.FullName;
-            user.Email = dto.Email;
-            user.PasswordHash = HashPassword(dto.Password);
+            Ecomm.CrossCutting.Utils.MapperUtil.UpdateNonNullProperties(dto, user);            
 
             await _repository.UpdateAsync(user);
             return _mapper.Map<UserDto>(user);

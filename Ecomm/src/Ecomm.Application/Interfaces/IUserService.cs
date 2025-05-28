@@ -14,7 +14,7 @@ namespace Ecomm.Application.Interfaces
         Task<UserDto?> GetByIdAsync(Guid id);
         Task<UserDto> CreateAsync(CreateUserDto dto);
         Task DeleteAsync(Guid id);
-        Task<UserDto> UpdateAsync(Guid id, CreateUserDto dto);
+        Task<UserDto> UpdateAsync(Guid id, UpdateUserDto dto);
         Task<LoginResponseDto> LoginAsync(LoginRequestDto dto);
     }
 }
