@@ -1,4 +1,4 @@
-namespace WebApplication1
+namespace Ecomm.API
 {
     public class WeatherForecast
     {
