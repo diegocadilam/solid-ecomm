@@ -23,6 +23,12 @@ namespace Ecomm.Infrastructure.Data
                 e.Property(x => x.Email).IsRequired().HasMaxLength(100);
                 e.Property(x => x.PasswordHash).IsRequired();
             });
+
+            modelBuilder.Entity<Customer>(e =>
+            {
+                e.HasKey(x => x.Id);
+                e.Property(x => x.FullName).IsRequired().HasMaxLength(100);                
+            });
         }
     }
 }
