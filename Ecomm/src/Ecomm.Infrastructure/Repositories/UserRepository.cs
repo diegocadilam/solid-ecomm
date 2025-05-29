@@ -1,4 +1,5 @@
 ﻿using Ecomm.Application.Interfaces;
+using Ecomm.Application.Interfaces.Repositories;
 using Ecomm.Domain.Entities;
 using Ecomm.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;

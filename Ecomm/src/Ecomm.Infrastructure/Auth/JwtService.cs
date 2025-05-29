@@ -1,4 +1,5 @@
 ﻿using Ecomm.Application.Interfaces;
+using Ecomm.Application.Interfaces.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;

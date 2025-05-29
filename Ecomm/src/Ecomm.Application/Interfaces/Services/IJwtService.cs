@@ -1,4 +1,4 @@
-﻿namespace Ecomm.Application.Interfaces
+﻿namespace Ecomm.Application.Interfaces.Services
 {
     public interface IJwtService
     {

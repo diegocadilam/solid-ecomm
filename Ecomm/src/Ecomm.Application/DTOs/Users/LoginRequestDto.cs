@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ecomm.Application.DTOs
+namespace Ecomm.Application.DTOs.Users
 {
-    public class CreateUserDto
+    public class LoginRequestDto
     {
-        public string FullName { get; set; } = null!;
         public string Email { get; set; } = null!;
         public string Password { get; set; } = null!;
     }

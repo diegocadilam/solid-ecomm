@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ecomm.Application.DTOs
+namespace Ecomm.Application.DTOs.Users
 {
     public class UpdateUserDto
     {

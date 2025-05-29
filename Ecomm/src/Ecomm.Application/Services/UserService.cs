@@ -1,6 +1,9 @@
 ﻿using AutoMapper;
 using Ecomm.Application.DTOs;
+using Ecomm.Application.DTOs.Users;
 using Ecomm.Application.Interfaces;
+using Ecomm.Application.Interfaces.Repositories;
+using Ecomm.Application.Interfaces.Services;
 using Ecomm.Domain.Entities;
 using System.Security.Cryptography;
 using System.Text;

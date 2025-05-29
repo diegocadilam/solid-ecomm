@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ecomm.Application.Interfaces
+namespace Ecomm.Application.Interfaces.Services
 {
     public interface ICurrentUserService
     {

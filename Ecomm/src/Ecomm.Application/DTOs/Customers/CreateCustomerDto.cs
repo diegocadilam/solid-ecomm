@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ecomm.Application.DTOs
+namespace Ecomm.Application.DTOs.Customers
 {
-    public class LoginResponseDto
+    internal class CreateCustomerDto
     {
-        public string Token { get; set; } = null!;
     }
 }

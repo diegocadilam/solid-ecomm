@@ -1,4 +1,5 @@
 ﻿using Ecomm.Application.DTOs;
+using Ecomm.Application.DTOs.Users;
 using Ecomm.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ecomm.Application.Interfaces
+namespace Ecomm.Application.Interfaces.Services
 {
     public interface IUserService
     {

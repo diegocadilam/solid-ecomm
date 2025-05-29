@@ -1,5 +1,7 @@
 ﻿using Ecomm.Application.DTOs;
+using Ecomm.Application.DTOs.Users;
 using Ecomm.Application.Interfaces;
+using Ecomm.Application.Interfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

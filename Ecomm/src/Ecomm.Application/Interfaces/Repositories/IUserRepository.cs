@@ -1,6 +1,6 @@
 ﻿using Ecomm.Domain.Entities;
 
-namespace Ecomm.Application.Interfaces
+namespace Ecomm.Application.Interfaces.Repositories
 {
     public interface IUserRepository
     {

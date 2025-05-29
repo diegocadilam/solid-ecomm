@@ -12,6 +12,8 @@ using log4net.Config;
 using Ecomm.Infrastructure.Mappings;
 using System.Security.Claims;
 using Ecomm.Application.Services;
+using Ecomm.Application.Interfaces.Repositories;
+using Ecomm.Application.Interfaces.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

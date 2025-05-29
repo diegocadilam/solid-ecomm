@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Ecomm.Application.DTOs;
+using Ecomm.Application.DTOs.Users;
 using Ecomm.Domain.Entities;
 using System;
 using System.Collections.Generic;
